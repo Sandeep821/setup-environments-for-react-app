@@ -1,21 +1,21 @@
 
-# Setup environment varibale for React app
+# Setup environment variable for React app
 
 # Prerequisites
-- Make sure `NodeJS`, `NPM`, `YARN` and `ENV-CMD` are installed and running on you local machine
+- Make sure `NodeJS`, `NPM`, and `env-cmd`(globally or locally) are installed and running on you local machine
+
+# Optional Installation 
+- `Yarn` (npm install -g yarn)
 
 ## Run the app (Locally)
 - Open `Terminal` or `PowerShell` or `Command Line`
-- Clone the project to your desired location: `git clone https://ilgor_vci@bitbucket.org/ilgor_vci/vci-ofa-frontend.git`
+- Clone the project to your desired location: `https://github.com/Sandeep821/setup-environments-for-react-app.git`
 - Navigate to the project: `cd vci-ofa-frontend`
 - Install all the dependencies: `npm install`
-- Run the app locally : `yarn start-dev` | `yarn start-int` | `yarn start-cons` | `yarn start-prod`
-
-## Available Scripts
-In the project directory, you can run:
+- Run the app locally using yarn : `yarn start-dev` | `yarn start-int` | `yarn start-cons` | `yarn start-prod`
+- Run the app locally using npm : `npm run start-dev` | `npm run start-int` | `npm run start-cons` | `npm run start-prod`
 
 ### `npm start`
-- Run the app locally using : `yarn start-dev` | `yarn start-int` | `yarn start-cons` | `yarn start-prod`
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -24,11 +24,13 @@ You will also see any lint errors in the console.
 
 ### `npm run build`
 
-Build the app using : `yarn build-dev` | `yarn build-int` | `yarn build-cons` | `yarn build-prod` to the `build` folder.<br>
+Build the app using Yran : `yarn build-dev` | `yarn build-int` | `yarn build-cons` | `yarn build-prod` to the `build` folder.
+<br>
+Build the app using npm : `npm run build-dev` | `npm run build-int` | `npm run build-cons` | `npm run build-prod` to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+now app is ready to be deployed!
 
 ### `npm test`
 
