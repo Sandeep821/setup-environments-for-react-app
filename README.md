@@ -10,7 +10,7 @@
 ## Run the app (Locally)
 - Open `Terminal` or `PowerShell` or `Command Line`
 - Clone the project to your desired location: `https://github.com/Sandeep821/setup-environments-for-react-app.git`
-- Navigate to the project: `cd vci-ofa-frontend`
+- Navigate to the project: `cd ENV-SETUP`
 - Install all the dependencies: `npm install`
 - Run the app locally using yarn : `yarn start-dev` | `yarn start-int` | `yarn start-cons` | `yarn start-prod`
 - Run the app locally using npm : `npm run start-dev` | `npm run start-int` | `npm run start-cons` | `npm run start-prod`
